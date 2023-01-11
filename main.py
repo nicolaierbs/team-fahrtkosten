@@ -9,7 +9,7 @@ if __name__ == '__main__':
     df['Distanz'] = df['Distanz']/1000
     df['Faktor'] = df['Faktor']*2
 
-    km_preis = 0.30
+    km_preis = 0.23
     df['Erstattung'] = df['Faktor'] * km_preis * df['Distanz']
     print(df)
 
